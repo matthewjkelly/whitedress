@@ -23,6 +23,8 @@
 		A789BD54189B0370005BB530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A789BD33189B0370005BB530 /* UIKit.framework */; };
 		A789BD5C189B0370005BB530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A789BD5A189B0370005BB530 /* InfoPlist.strings */; };
 		A789BD5E189B0370005BB530 /* whitedressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A789BD5D189B0370005BB530 /* whitedressTests.m */; };
+		A7D60144189C4FF80000DDF9 /* whitedress.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = A7D60142189C4EB10000DDF9 /* whitedress.entitlements */; };
+		A7D60145189C4FF90000DDF9 /* whitedress.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = A7D60142189C4EB10000DDF9 /* whitedress.entitlements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		A735A637189B067000B3753F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A735A639189B069900B3753F /* whitedress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = whitedress.entitlements; sourceTree = "<group>"; };
 		A789BD2C189B0370005BB530 /* whitedress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whitedress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789BD2F189B0370005BB530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A789BD31189B0370005BB530 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,6 +60,8 @@
 		A789BD59189B0370005BB530 /* whitedressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "whitedressTests-Info.plist"; sourceTree = "<group>"; };
 		A789BD5B189B0370005BB530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A789BD5D189B0370005BB530 /* whitedressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = whitedressTests.m; sourceTree = "<group>"; };
+		A7D60141189C4EB10000DDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/whitedress.entitlements; sourceTree = "<group>"; };
+		A7D60143189C4EB40000DDF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/whitedress.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +123,7 @@
 		A789BD35189B0370005BB530 /* whitedress */ = {
 			isa = PBXGroup;
 			children = (
-				A735A639189B069900B3753F /* whitedress.entitlements */,
+				A7D60142189C4EB10000DDF9 /* whitedress.entitlements */,
 				A789BD3E189B0370005BB530 /* mjkAppDelegate.h */,
 				A789BD3F189B0370005BB530 /* mjkAppDelegate.m */,
 				A789BD41189B0370005BB530 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 				A789BD4B189B0370005BB530 /* Images.xcassets in Resources */,
 				A789BD3A189B0370005BB530 /* InfoPlist.strings in Resources */,
 				A789BD43189B0370005BB530 /* Main.storyboard in Resources */,
+				A7D60144189C4FF80000DDF9 /* whitedress.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A789BD5C189B0370005BB530 /* InfoPlist.strings in Resources */,
+				A7D60145189C4FF90000DDF9 /* whitedress.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +331,15 @@
 				A789BD5B189B0370005BB530 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7D60142189C4EB10000DDF9 /* whitedress.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D60141189C4EB10000DDF9 /* Base */,
+				A7D60143189C4EB40000DDF9 /* en */,
+			);
+			name = whitedress.entitlements;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
